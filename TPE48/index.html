@@ -4,23 +4,38 @@
     <meta charset="UTF-8">
     <title>TPE48</title>
     <STYLE TYPE="text/css">
-     body{
+        *{margin: 0;padding: 0;}
+        body{
          background-image: url(./images/1.jpg);
          background-size:100% 100%;
          height: 100%;
          }
      html{height: 100%;}
-        .bgm{text-align: right; }
+        .bgm{text-align:right;position:absolute;top:11px;right: 10px;}
+     .top{width:100%;height:45px;background: rgb(255, 156, 10);margin: 10px 0 0;
+     }
+     .top .a{width:1500px;height:45px;background: #1dff1e;margin: 0 auto;
+        }
+     .top .a ul li{width:100px;height:45px;borter:2px solid #000;
+                              float: left;list-style: none;}
     </STYLE>
 </head>
  <body>
-   <div class="bgm">
- <audio src="bgm/向前走.wav" controls="controls" autoplay="autoplay" loop="loop>
-   </div>
- <page id="1">T</page>
- <page id="2">P</page>
- <page id="3">E</page>
- <page id="4">4</page>
- <page id="5">8</page>
+    <div class="top">
+       <div class="a">
+           <ul>
+               <li>1</li>
+               <li>2</li>
+               <li>3</li>
+               <li>4</li>
+               <li>5</li><!--无序列表-->
+           </ul>
+
+       </div>
+
+       <div class="bgm">
+           <audio src="bgm/向前走.wav" controls="controls" autoplay="autoplay" loop="loop"></audio>
+       </div>
+  </div>
 </body>
 </html>
